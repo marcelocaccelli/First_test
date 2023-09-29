@@ -1,0 +1,20 @@
+#!/usr/local/bin/python3
+
+from random import randint
+
+
+def sortearDado():
+    return randint(1, 6)  # nesta funcao ele considera ate o numero 6
+
+
+sorteio = sortearDado()
+
+
+for numero in range(1, 7):  # no range ela para ela considerar o 6 deve-se sempre incluir um numero maior
+    if numero % 2 != 0:
+        continue
+    if numero == sorteio:
+        print(f"Parabéns, O Numero Sorteado é {numero}")
+        break
+else:
+    print("Não acertou o numero")
