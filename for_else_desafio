@@ -10,7 +10,8 @@ def sortearDado():
 sorteio = sortearDado()
 
 
-for numero in range(1, 7):  # no range ela para ela considerar o 6 deve-se sempre incluir um numero maior
+# no range ela para ela considerar o 6 deve-se sempre incluir um numero maior
+for numero in range(1, 7):
     if numero % 2 != 0:
         continue
     if numero == sorteio:
