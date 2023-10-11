@@ -3,12 +3,12 @@
 # Criando dicionario no modo convencional
 
 
-# dicionario = {}
+dicionario = {}
 
-# for chaves in range(1, 10):
-#     dicionario.update({chaves: " "})
+for chaves in range(1, 10):
+    dicionario.update({chaves: " "})
 
-# print(dicionario)
+print(dicionario)
 
 
 # Criando dicionario utilizando comprehension sem condicional
